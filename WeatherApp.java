@@ -13,7 +13,7 @@ public class WeatherApp extends JFrame {
     private JLabel tempLabel, feelsLabel, humidityLabel, windLabel, descLabel, iconLabel,
             sunriseLabel, sunsetLabel, errorLabel, dateTimeLabel;
     private JPanel hourlyPanel, mainPanel, cardPanel;
-    private final String API_KEY = "532ad55bfe3f336b51d3643309b4d49b";
+    private final String API_KEY = "REPLACE WITH YOUR OWN API KEY";
     private final String[] cities = {"New York,US","London,UK","Tokyo,JP","Delhi,IN","Sydney,AU"};
     private final int HOURLY_COUNT = 8;
     private boolean darkMode = false;
@@ -342,3 +342,4 @@ public class WeatherApp extends JFrame {
         SwingUtilities.invokeLater(WeatherApp::new);
     }
 }
+
